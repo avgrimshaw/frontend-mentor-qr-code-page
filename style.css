@@ -1,0 +1,88 @@
+html {
+    font-family: Outfit;
+    font-size: 15px;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.challenge-container { width: 320px; margin-top: 10px;}
+.challenge-container p { font-size: 11px; text-align: center; }
+.challenge-container a { color: hsl(228, 45%, 44%); }
+
+.qr-code_container {
+    height: 497px;
+    width: 320px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 1em 0.5em rgba(0, 0, 0, 0.03);
+    overflow: auto;
+}
+
+#qr-code-image {
+    margin: 16px 16px 0px 16px;
+    height: 288px;
+    width: 288px;
+    background: url(images/image-qr-code.png);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.qr-code_container h2 {
+    text-align: center;
+    margin: 24px 0 auto;
+    color: hsl(218, 44%, 22%);
+    font-size: 1.48rem;
+}
+
+.qr-code_container p {
+    text-align: center;
+    font-size: 1.03rem;
+    color: hsl(220, 15%, 55%);
+}
+
+@media screen and (max-width: 375px) { /* Standard mobile */
+    .qr-code_container {
+        margin-top: 20%;
+    }
+}
+
+@media screen and (min-height: 740px) { /* Medium mobile */
+    .qr-code_container {
+        margin-top: 35%;
+    }
+}
+
+@media screen and (min-height: 800px) { /* Large mobile */
+    .qr-code_container {
+        margin-top: 50%;
+    }
+}
+
+@media screen and (min-width: 540px) { /* Small Tablet */
+    .qr-code_container {
+        margin-top: 30%;
+    }
+}
+
+@media screen and (min-height: 1024px) { /* Standard Tablet */
+    .qr-code_container {
+        margin-top: 80%;
+    }
+}
+
+@media screen and (min-height: 1080px) { /* Large Tablet */
+    .qr-code_container {
+        margin-top: 100%;
+    }
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(fonts/Outfit-VariableFont_wght.ttf);
+}
