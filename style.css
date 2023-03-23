@@ -4,7 +4,7 @@
 
 html {
     font-family: Outfit;
-    font-size: 15px;
+    font-size: 10px;
 }
 
 body {
@@ -49,12 +49,15 @@ html, body {
     text-align: center;
     margin: 24px 0 auto;
     color: hsl(218, 44%, 22%);
-    font-size: 1.48rem;
+    font-size: 2.23rem;
+    font-weight: 700;
 }
 
 .qr-code_container p {
     text-align: center;
-    font-size: 1.03rem;
+    font-size: 1.565rem;
+    font-weight: 400;
+    margin: 0.95em 0 auto;
     color: hsl(220, 15%, 55%);
 }
 
