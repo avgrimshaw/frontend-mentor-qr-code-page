@@ -4,6 +4,7 @@ html {
 }
 
 body {
+    min-height: 100vh;
     background-color: hsl(212, 45%, 89%);
     display: flex;
     justify-content: center;
@@ -44,42 +45,6 @@ body {
     text-align: center;
     font-size: 1.03rem;
     color: hsl(220, 15%, 55%);
-}
-
-@media screen and (max-width: 375px) { /* Standard mobile */
-    .qr-code_container {
-        margin-top: 20%;
-    }
-}
-
-@media screen and (min-height: 740px) { /* Medium mobile */
-    .qr-code_container {
-        margin-top: 35%;
-    }
-}
-
-@media screen and (min-height: 800px) { /* Large mobile */
-    .qr-code_container {
-        margin-top: 50%;
-    }
-}
-
-@media screen and (min-width: 540px) { /* Small Tablet */
-    .qr-code_container {
-        margin-top: 30%;
-    }
-}
-
-@media screen and (min-height: 1024px) { /* Standard Tablet */
-    .qr-code_container {
-        margin-top: 80%;
-    }
-}
-
-@media screen and (min-height: 1080px) { /* Large Tablet */
-    .qr-code_container {
-        margin-top: 100%;
-    }
 }
 
 @font-face {
