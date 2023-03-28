@@ -2,7 +2,7 @@
 ## Welcome! 👋
 
 This is a design to code challenge from Frontend Mentor, coded in HTML & CSS. 
-It is a webpage displaying a QR Code with other information written below, all displayed on a centered card.
+It is a webpage displaying a QR Code image with information written below it, all displayed on a centered card.
 
 ## Instructions 📝
 
