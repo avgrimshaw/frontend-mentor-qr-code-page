@@ -58,7 +58,7 @@ html, body { margin: 0; padding: 0; }
 .qr-code_container p {
     width: 288px;
     color: hsl(220, 15%, 55%);
-    margin: 0 0 20px 0;
+    margin: 0 0 18px 0;
     text-align: center;
     font-weight: 400;
     font-size: 1.52em;
