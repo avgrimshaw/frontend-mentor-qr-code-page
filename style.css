@@ -32,7 +32,7 @@ html, body { margin: 0; padding: 0; }
     background-color: white;
     padding: 16px;
     border-radius: 20px;
-    box-shadow: 0 0.5em 1em 0.5em rgba(0, 0, 0, 0.03);
+    box-shadow: 0 1em 2em 0.5em rgba(0, 0, 0, 0.06);
     overflow: hidden;
 }
 
@@ -49,19 +49,19 @@ html, body { margin: 0; padding: 0; }
 .qr-code_container h1 {
     width: 288px;
     color: hsl(218, 44%, 22%);
-    margin: 24px 0 15px 0;
+    margin: 24px 0 16px 0;
     text-align: center;
     font-weight: 700;
-    font-size: 2.22em;
+    font-size: 2.2em;
 }
 
 .qr-code_container p {
     width: 288px;
     color: hsl(220, 15%, 55%);
-    margin: 0 0 18px 0;
+    margin: 0 0 24px 0;
     text-align: center;
     font-weight: 400;
-    font-size: 1.52em;
+    font-size: 1.54em;
 }
 
 @font-face {
