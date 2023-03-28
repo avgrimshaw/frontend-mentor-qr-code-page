@@ -12,4 +12,5 @@ To open the webpage simply:
 2. Click 'Download ZIP'.
 3. Once downlaoded, extract (or drag and drop) the 'frontend-mentor-qr-code-page-main' folder anywhere you want, this could be on your Desktop or in your Documents.
 4. Finally, simply open the index.html file there it is 😄
-***
+#
+[QR Code Challenge from Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
