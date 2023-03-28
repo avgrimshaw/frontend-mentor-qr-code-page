@@ -20,7 +20,7 @@ body {
 
 html, body { margin: 0; padding: 0; }
 
-.challenge-container { width: 288px;}
+.challenge-container { position: absolute; bottom: 0;}
 .challenge-container p { font-size: 13px; text-align: center; }
 .challenge-container a { color: hsl(228, 45%, 44%); text-decoration: none; font-weight: bold;}
 .challenge-container a:hover { color: hsl(283, 45%, 60%); }
