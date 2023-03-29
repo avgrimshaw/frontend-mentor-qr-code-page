@@ -1,6 +1,5 @@
-* {
-    box-sizing: border-box;
-}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
 
 html {
     font-family: 'Outfit', sans-serif;
@@ -17,8 +16,6 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
 }
-
-html, body { margin: 0; padding: 0; }
 
 .challenge-container { position: absolute; bottom: 0;}
 .challenge-container p { font-size: 13px; text-align: center; }
